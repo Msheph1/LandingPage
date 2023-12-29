@@ -31,6 +31,8 @@ ul {
 }
 
 .toprow {
+  margin-left: 50px;
+  margin-right: 50px;
   display: flex;
   padding: 10px;
   align-items: center;
@@ -51,19 +53,18 @@ ul {
 
 .bottomrow {
   display: flex;
+  justify-content: center;
   padding: 10px;
   margin-top: 25px;
-  color: white;
-  justify-content: center;
   margin-left: 200px;
-  margin-right: 150px;
-  gap: 75px;
+  margin-right: 200px;
+  color: white;
+  gap: 50px;
 }
 
 .me {
-  width: 200px;
-  height: 200px;
   border-radius: 50%;
+  width: 200px;
 }
 
 .projects {
@@ -77,6 +78,7 @@ ul {
 .title {
   display: flex;
   justify-content: center;
+  padding-top: 20px;
   font-size: 36px;
   font-weight: 500;
 }
@@ -91,6 +93,9 @@ ul {
 .text {
   display: flex;
   justify-content: center;
+  text-align: center;
+  max-width: 210px;
+  font-size: 12px;
 }
 
 .goals {
@@ -104,6 +109,8 @@ ul {
 }
 
 .goals p {
+  margin-left: 200px;
+  margin-right: 200px;
   text-align: center;
   font-size: 18px;
   font-weight: 400;
